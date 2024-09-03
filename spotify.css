@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(218, 213, 213);
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height: 65px;
+    color: white;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brand img{
+    width: 45px;
+
+}
+nav span{
+    align-items: center;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+nav ul li{
+    margin-left: 12px;
+}
+.brand span{
+    margin-left: 5px;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container{
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    padding: 34px;
+    border-radius: 12px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+
+}
+#progress{
+    width: 75vw;
+    cursor: pointer;
+}
+.icons{
+    font-size: 30px;
+    margin-top: 12px;
+}
+.icons i{
+    cursor: pointer;
+}
+nav ul li{
+    cursor: pointer;
+}
+.songitem img{
+    height: 43px;
+    margin-left: 23px;
+    border-radius: 35px;
+}
+.songitem{
+    display: flex;
+    background-color:white;
+    color: black;
+    height: 50px;
+    margin: 12px 0;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 32px;
+    width: 90%;
+    
+}
+.p{
+    padding-right: 10px;
+    font-size: x-large;
+    cursor: pointer;
+}
+.time{
+    position: relative;
+    right: 2px;
+}
+.name{
+    padding-left: 50px;
+    flex-grow: 1;
+}
+.songscontainer{
+    margin-top: 50px;
+}
+.gif{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 190px;
+    bottom: 30px;
+}
+.gif img{
+    height: 50px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
